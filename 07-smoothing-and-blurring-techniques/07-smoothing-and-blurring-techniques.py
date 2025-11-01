@@ -1,4 +1,4 @@
-
+"""
 Smoothing and Blurring Techniques
 
 Concept: Reduce noise using averaging, Gaussian, median, and bilateral filters.
@@ -8,7 +8,7 @@ Visualization: Side-by-side windows showing different blur effects.
 Practice Exercise: Increase kernel sizes to see stronger smoothing.
 
 Real-world Application: Denoising before edge detection or segmentation.
-
+"""
 
 import cv2
 import numpy as np
@@ -34,3 +34,4 @@ cv2.waitKey(1000)
 
 
 cv2.destroyAllWindows()
+
