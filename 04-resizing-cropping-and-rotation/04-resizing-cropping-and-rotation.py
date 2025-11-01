@@ -1,4 +1,4 @@
-
+"""
 Image Resizing, Cropping, and Rotation
 
 Concept: Resize to change resolution, crop to focus on regions, rotate for orientation.
@@ -8,7 +8,7 @@ Visualization: Four windows: smaller, larger, centered crop, and 30° rotated im
 Practice Exercise: Rotate by -45° and scale by 0.5 at the same time.
 
 Real-world Application: Normalization for model input and data augmentation.
-
+"""
 
 import cv2
 import numpy as np
@@ -41,3 +41,4 @@ cv2.waitKey(1000)
 
 
 cv2.destroyAllWindows()
+
