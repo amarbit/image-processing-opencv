@@ -1,4 +1,4 @@
-
+"""
 Video Processing using OpenCV
 
 Concept: Read frames from a video or webcam, process per-frame, and display.
@@ -8,7 +8,7 @@ Visualization: A live window showing original frames and their edge maps side-by
 Practice Exercise: Overlay FPS text on frames using moving average timing.
 
 Real-world Application: Dashcams, CCTV analytics, and robotics vision loops.
-
+"""
 
 import cv2
 import numpy as np
@@ -40,3 +40,4 @@ while frame_idx < 60:  # ~2 seconds at 30 FPS
 if not use_synth:
     cap.release()
 cv2.destroyAllWindows()
+
