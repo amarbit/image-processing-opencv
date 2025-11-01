@@ -1,4 +1,4 @@
-
+"""
 Face and Object Detection Basics (using Haar cascades)
 
 Concept: Haar cascades are classic detectors trained on features; fast but less robust than modern CNNs.
@@ -8,7 +8,7 @@ Visualization: A window with rectangles if any faces are detected (synthetic ima
 Practice Exercise: Load a real photo with a face and run detection on it.
 
 Real-world Application: Access control, photo tagging, and driver monitoring.
-
+"""
 
 import cv2
 import numpy as np
@@ -28,3 +28,4 @@ for (x, y, w, h) in faces:
 cv2.imshow("Haar Cascade Faces", img)
 cv2.waitKey(800)
 cv2.destroyAllWindows()
+
