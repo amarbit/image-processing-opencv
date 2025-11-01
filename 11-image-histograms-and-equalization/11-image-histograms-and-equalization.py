@@ -1,4 +1,4 @@
-
+"""
 Image Histograms and Equalization
 
 Concept: Histograms show pixel intensity distribution; equalization improves contrast.
@@ -8,7 +8,7 @@ Visualization: Grayscale vs equalized image and a simple histogram image.
 Practice Exercise: Equalize only the Y channel in YCrCb for color images.
 
 Real-world Application: Enhancing low-contrast photos, medical images, and OCR preprocessing.
-
+"""
 
 import cv2
 import numpy as np
@@ -38,3 +38,4 @@ cv2.waitKey(1000)
 
 
 cv2.destroyAllWindows()
+
