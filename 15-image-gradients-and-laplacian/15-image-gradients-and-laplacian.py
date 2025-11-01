@@ -1,4 +1,4 @@
-
+"""
 Image Gradients and Laplacian
 
 Concept: Gradients capture directional changes; Laplacian highlights regions of rapid intensity change.
@@ -8,7 +8,7 @@ Visualization: Two windows: gradient magnitude and Laplacian edge-like map.
 Practice Exercise: Try ksize=5 for Sobel and Laplacian to see smoothing effect.
 
 Real-world Application: Feature detection, focus metrics, and edge-based segmentation.
-
+"""
 
 import cv2
 import numpy as np
@@ -33,3 +33,4 @@ cv2.waitKey(800)
 
 
 cv2.destroyAllWindows()
+
