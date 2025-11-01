@@ -1,4 +1,4 @@
-
+"""
 Project: Real-time Edge Detection with Webcam
 
 Concept: Use your webcam stream and apply Canny in real time with trackbars to tune thresholds.
@@ -8,7 +8,7 @@ Visualization: Window with original frame and dynamic edge map; sliders control 
 Practice Exercise: Add a GaussianBlur before Canny controlled by a trackbar for kernel size.
 
 Real-world Application: Interactive parameter tuning for vision prototyping.
-
+"""
 
 import cv2
 import numpy as np
@@ -45,3 +45,4 @@ for i in range(120):
 if not use_synth:
     cap.release()
 cv2.destroyAllWindows()
+
