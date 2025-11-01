@@ -1,4 +1,4 @@
-
+"""
 Morphological Operations (Erosion, Dilation, Opening, Closing)
 
 Concept: Morphology modifies shapes in binary images; erosion shrinks, dilation grows objects.
@@ -9,7 +9,7 @@ Practice Exercise: Try an elliptical kernel via cv2.MORPH_ELLIPSE.
 
 Real-world Application: Clean up noise and fill gaps in segmentation masks.
 
-
+"""
 import cv2
 import numpy as np
 
@@ -38,3 +38,4 @@ cv2.waitKey(1000)
 
 
 cv2.destroyAllWindows()
+
