@@ -1,4 +1,4 @@
-
+"""
 Drawing Shapes and Writing Text on Images
 
 Concept: Draw primitives to annotate results or generate synthetic data.
@@ -8,7 +8,7 @@ Visualization: Annotated image with rectangle, filled circle, line, and text.
 Practice Exercise: Draw a triangle by connecting three points with lines.
 
 Real-world Application: Visualization of detections, bounding boxes, and labels.
-
+"""
 
 import cv2
 import numpy as np
@@ -31,3 +31,4 @@ cv2.waitKey(800)
 
 
 cv2.destroyAllWindows()
+
