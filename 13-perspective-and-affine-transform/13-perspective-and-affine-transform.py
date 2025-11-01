@@ -1,4 +1,4 @@
-
+"""
 Perspective Transform and Affine Transform
 
 Concept: Affine preserves parallelism; perspective handles keystoning (4-point warps).
@@ -8,7 +8,7 @@ Visualization: One image sheared (affine) and another with a perspective warp.
 Practice Exercise: Use 4 corner points to rectify a tilted rectangle back to fronto-parallel.
 
 Real-world Application: Document scanning, homography, and AR overlays.
-
+"""
 
 import cv2
 import numpy as np
@@ -40,3 +40,4 @@ cv2.waitKey(800)
 
 
 cv2.destroyAllWindows()
+
