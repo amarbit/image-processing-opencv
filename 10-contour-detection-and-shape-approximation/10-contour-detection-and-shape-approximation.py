@@ -1,4 +1,4 @@
-
+"""
 Contour Detection and Shape Approximation
 
 Concept: Contours trace object boundaries; polygonal approximation simplifies shapes.
@@ -9,7 +9,7 @@ Practice Exercise: Label each contour with the number of vertices.
 
 Real-world Application: Shape analysis, document detection, and object counting.
 
-
+"""
 import cv2
 import numpy as np
 
@@ -36,3 +36,4 @@ cv2.waitKey(800)
 
 
 cv2.destroyAllWindows()
+
