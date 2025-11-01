@@ -1,4 +1,4 @@
-
+"""
 Image Thresholding and Binarization
 
 Concept: Convert grayscale images to binary using fixed or adaptive thresholds.
@@ -8,7 +8,7 @@ Visualization: Four windows comparing gray vs different binarization results.
 Practice Exercise: Try inverse binary threshold (cv2.THRESH_BINARY_INV).
 
 Real-world Application: Document scanning and segmentation of foreground from background.
-
+"""
 
 import cv2
 import numpy as np
@@ -35,3 +35,4 @@ cv2.waitKey(1000)
 
 
 cv2.destroyAllWindows()
+
