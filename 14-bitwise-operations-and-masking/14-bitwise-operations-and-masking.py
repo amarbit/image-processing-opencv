@@ -1,4 +1,4 @@
-
+"""
 Bitwise Operations and Masking
 
 Concept: Masks select regions. Bitwise ops combine images based on masks.
@@ -8,7 +8,7 @@ Visualization: A circular region of the image kept, rest black; and inverted col
 Practice Exercise: Create a rectangular mask and combine with the circular one (AND).
 
 Real-world Application: Region-of-interest selection, alpha compositing, background removal.
-
+"""
 
 import cv2
 import numpy as np
@@ -34,3 +34,4 @@ cv2.waitKey(800)
 
 
 cv2.destroyAllWindows()
+
