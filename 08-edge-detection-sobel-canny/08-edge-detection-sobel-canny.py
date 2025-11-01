@@ -1,4 +1,4 @@
-
+"""
 Edge Detection (Sobel, Canny)
 
 Concept: Edges are rapid intensity changes. Sobel computes gradients; Canny provides robust edges.
@@ -8,7 +8,7 @@ Visualization: Two windows: Sobel gradient magnitude and crisp Canny edges.
 Practice Exercise: Lower Canny thresholds to detect more edges (and noise).
 
 Real-world Application: Feature extraction and object boundary detection.
-
+"""
 
 import cv2
 import numpy as np
@@ -32,3 +32,4 @@ cv2.waitKey(800)
 
 
 cv2.destroyAllWindows()
+
