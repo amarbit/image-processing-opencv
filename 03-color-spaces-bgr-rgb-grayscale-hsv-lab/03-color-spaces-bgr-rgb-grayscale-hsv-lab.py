@@ -1,4 +1,4 @@
-
+"""
 Color Spaces (BGR, RGB, Grayscale, HSV, LAB)
 
 Concept: Color can be represented in multiple spaces. HSV separates color (hue) from intensity. LAB approximates human perception.
@@ -8,7 +8,7 @@ Visualization: Multiple windows: same scene rendered via different color convers
 Practice Exercise: Extract the S (saturation) channel from HSV and display it.
 
 Real-world Application: HSV helps with color-based segmentation under lighting changes.
-
+"""
 
 import cv2
 import numpy as np
@@ -34,3 +34,4 @@ cv2.waitKey(1000)
 
 
 cv2.destroyAllWindows()
+
