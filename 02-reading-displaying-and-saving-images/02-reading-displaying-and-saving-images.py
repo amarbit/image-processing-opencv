@@ -1,4 +1,4 @@
-
+"""
 Reading, Displaying, and Saving Images
 
 Concept: Read images from disk, show them in a window, and save results to files.
@@ -8,7 +8,7 @@ Visualization: Two windows briefly: original color image and its grayscale versi
 Practice Exercise: Save the color image as JPEG and compare file size to PNG.
 
 Real-world Application: Saving intermediate results is common in preprocessing pipelines and datasets.
-
+"""
 
 import cv2
 import numpy as np
@@ -34,3 +34,4 @@ print("Saved:", out_path)
 
 
 cv2.destroyAllWindows()
+
