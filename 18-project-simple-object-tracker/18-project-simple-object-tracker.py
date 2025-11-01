@@ -1,4 +1,4 @@
-
+"""
 Project: Building a Simple Object Tracker
 
 Concept: Track a colored object using HSV thresholding and contour centroid tracking.
@@ -8,7 +8,7 @@ Visualization: The object centroid marked with a red dot and its motion trail; m
 Practice Exercise: Add a bounding box and display its area as text.
 
 Real-world Application: Ball tracking in sports, simple robotics following a colored beacon.
-
+"""
 
 import cv2
 import numpy as np
@@ -56,3 +56,4 @@ while len(trail) < 100:
 if not use_synth:
     cap.release()
 cv2.destroyAllWindows()
+
