@@ -1,4 +1,4 @@
-
+"""
 Image Arithmetic (Add, Subtract, Blend)
 
 Concept: Combine images through addition, subtraction, and weighted blending.
@@ -8,7 +8,7 @@ Visualization: Original + a red disk image; show added, subtracted, and blended 
 Practice Exercise: Try different alpha/beta weights in addWeighted.
 
 Real-world Application: Image compositing, exposure fusion, and change detection.
-
+"""
 
 import cv2
 import numpy as np
@@ -37,3 +37,4 @@ cv2.waitKey(1000)
 
 
 cv2.destroyAllWindows()
+
